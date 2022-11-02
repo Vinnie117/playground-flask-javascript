@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 
 
-print('Hello')
 
 
 app = FastAPI()
@@ -11,7 +10,7 @@ app = FastAPI()
 async def root():
     return {"message": "Hello World"}
 
-print('End')
+
 
 
 
