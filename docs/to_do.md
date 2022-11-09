@@ -25,5 +25,11 @@ Frontend
 - https://stackoverflow.com/questions/4185046/how-to-allow-user-to-enter-elements-in-an-html-table
 - https://realpython.com/the-ultimate-flask-front-end/
 
-
+HTML editable table
+- https://www.javatpoint.com/javascript-editable-table
+- https://codepen.io/a-boy/pen/MKYwaB
+- https://stackoverflow.com/questions/6012823/how-to-make-html-table-cell-editable
+- https://stackoverflow.com/questions/14964253/how-to-dynamically-add-a-new-column-to-an-html-table
+- https://www.redips.net/javascript/adding-table-rows-and-columns/
+- https://stackoverflow.com/questions/64040897/html-table-add-column-with-javascript
 
