@@ -33,3 +33,10 @@ HTML editable table
 - https://www.redips.net/javascript/adding-table-rows-and-columns/
 - https://stackoverflow.com/questions/64040897/html-table-add-column-with-javascript
 
+React dynamic table
+- https://github.com/iddan/react-spreadsheet
+- https://dirask.com/posts/React-create-dynamic-editable-table-DNKArp
+- https://codepen.io/Shamiul_Hoque/pen/LNavdZ
+- https://www.freecodecamp.org/news/how-to-build-a-real-time-editable-datagrid-in-react-c13a37b646ec/
+- https://dev.to/franciscomendes10866/how-to-build-a-dynamic-table-component-in-react-4ff8
+- https://dev.to/abdulbasit313/an-easy-way-to-create-a-customize-dynamic-table-in-react-js-3igg 
