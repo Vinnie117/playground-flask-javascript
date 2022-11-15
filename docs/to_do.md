@@ -10,10 +10,16 @@ Notes
 - Deploy using Heroku
 - Use RapidAPI
 - Flask als Web Framework nutzen
-- FastApi um die API zu bauen
+- FastApi um die API zu bauen -> besser Flask nutzen
 
 - https://towardsdatascience.com/talking-to-python-from-javascript-flask-and-the-fetch-api-e0ef3573c451
 - https://pbpython.com/pandas-html-table.html
+
+
+Flask / server-side rendering
+- https://michael-yin.github.io/frontend-guide-python-dev/ssr/
+- https://medium.com/@simranjitkamboj/creating-a-web-application-using-python-flask-with-server-side-rendering-9ebea8204193
+- https://towardsdatascience.com/talking-to-python-from-javascript-flask-and-the-fetch-api-e0ef3573c451
 - https://github.com/jitsejan/python-flask-with-javascript
 - https://github.com/jpacifico/Flask_linear 
 
