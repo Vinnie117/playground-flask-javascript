@@ -15,7 +15,6 @@ Notes
 - https://towardsdatascience.com/talking-to-python-from-javascript-flask-and-the-fetch-api-e0ef3573c451
 - https://pbpython.com/pandas-html-table.html
 
-
 Flask / server-side rendering
 - https://michael-yin.github.io/frontend-guide-python-dev/ssr/
 - https://medium.com/@simranjitkamboj/creating-a-web-application-using-python-flask-with-server-side-rendering-9ebea8204193
@@ -48,3 +47,7 @@ React dynamic table (ideal would be to have only one spreadsheet, which can be e
 - https://www.freecodecamp.org/news/how-to-build-a-real-time-editable-datagrid-in-react-c13a37b646ec/
 - https://dev.to/franciscomendes10866/how-to-build-a-dynamic-table-component-in-react-4ff8
 - https://dev.to/abdulbasit313/an-easy-way-to-create-a-customize-dynamic-table-in-react-js-3igg 
+
+Calculator with Flask + Javascript
+- https://github.com/vr025/Calculator-Application-Using-Python-Flask
+- https://medium.com/@alanbanks229/part-2-of-2-introduction-to-python-flask-29b58adbabaf
