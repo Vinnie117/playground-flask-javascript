@@ -14,12 +14,12 @@ Notes
 
 - https://towardsdatascience.com/talking-to-python-from-javascript-flask-and-the-fetch-api-e0ef3573c451
 - https://pbpython.com/pandas-html-table.html
+- https://realpython.com/python-vs-javascript/
 
 Flask / server-side rendering
 - https://michael-yin.github.io/frontend-guide-python-dev/ssr/
 - https://medium.com/@simranjitkamboj/creating-a-web-application-using-python-flask-with-server-side-rendering-9ebea8204193
 - https://towardsdatascience.com/talking-to-python-from-javascript-flask-and-the-fetch-api-e0ef3573c451
-- https://github.com/jitsejan/python-flask-with-javascript
 - https://github.com/jpacifico/Flask_linear 
 
 Frontend
