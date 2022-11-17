@@ -14,6 +14,14 @@ Read html table from localhost
 - Parse as a list
     - https://stackoverflow.com/questions/6325216/parse-html-table-to-python-list
 
+- Flask: get/read html table
+    - https://stackoverflow.com/questions/63434179/how-to-read-a-custom-html-table-information-from-client-side-into-flask-backend
+    - https://stackoverflow.com/questions/65594131/get-html-table-row-data-to-flask-function
+    - https://stackoverflow.com/questions/72193457/html-table-row-submit-and-post-to-flask-server
+    - https://stackoverflow.com/questions/51803008/send-table-data-via-form-to-flask-method
+    - https://stackoverflow.com/questions/52008774/python-flask-how-to-get-all-records-from-html-table-in-a-request-post
+
+
 - Do not user anything with request.form
     - because we have html table, not form
 
