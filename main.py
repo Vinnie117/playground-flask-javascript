@@ -1,32 +1,17 @@
-from fastapi import FastAPI
+from flask import Flask, render_template
 
 
 
 
-app = FastAPI()
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    example_embed='This string is from python'
+    return render_template('index.html', embed=example_embed) 
 
 
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if __name__ == "__main__":
+    app.run(debug=True)
 
 
