@@ -1,0 +1,155 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Am I HTML already?</title>
+</head>
+<body>
+<nav>
+    <a href="emoji.html">Emoji</a>
+    <a href="images/gallery.html">Gallery</a>
+</nav>
+<h1>Hello, World Wide Web!</h1>
+<p>This is my first website.</p>
+
+<h2>About me</h2>
+<p>I'm a Python programmer and a bug collector.</p>
+
+<h2>Links</h2>
+<p>My favorite websites are:</p>
+<ul>
+    <li><a href="https://www.realpython.com">realpython.com</a></li>
+    <li><a href="https://www.python.org">python.org</a></li>
+    <li><a href="https://www.pypi.org">pypi.org</a></li>
+</ul>
+
+
+<p id='embed'>{{embed}}</p>
+<p id='table'>{{table}}</p>
+
+<h2>THE TABLE WITH INPUT DATA FOR REGRESSION </h2>
+<p>Make it dynamic later on</p>
+<p>For now try to read the values with Python</p>
+<style type="text/css">
+    .tg  {border-collapse:collapse;border-spacing:0;}
+    .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+      overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+      font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+    .tg .tg-0lax{text-align:left;vertical-align:top}
+    </style>
+<style type="text/css">
+  .tg  {border-collapse:collapse;border-spacing:0;}
+  .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    overflow:hidden;padding:10px 5px;word-break:normal;}
+  .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+  .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+  .tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+  </style>
+
+<!--This is a comment. Comments are not displayed in the browser-->
+
+  <table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-0pky"><span style="font-weight:bold">X</span></th>
+      <th class="tg-0pky"><span style="font-weight:bold">Y</span></th>
+      <th class="tg-fymr">Z</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <!-- Form inside a table cell-->
+      <td class="tg-0pky"><input form="form1" type="hidden" id="name" name="name" value=1 />1</td>
+      <td class="tg-0pky"><div contenteditable>3</div></td>
+      <td class="tg-0pky"><div contenteditable>4</div></td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"><div contenteditable>2</div</td>
+      <td class="tg-0pky"><div contenteditable>0</div></td>
+      <td class="tg-0pky"><div contenteditable>4</div></td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"><div contenteditable>5</div></td>
+      <td class="tg-0pky"><div contenteditable>5</div></td>
+      <td class="tg-0pky"><div contenteditable>6</div></td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"><div contenteditable>4</div></td>
+      <td class="tg-0pky"><div contenteditable>9</div></td>
+      <td class="tg-0pky"><div contenteditable>2</div></td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"><div contenteditable>4</div></td>
+      <td class="tg-0pky"><div contenteditable>7</div></td>
+      <td class="tg-0pky"><div contenteditable>4</div></td>
+    </tr>
+  </tbody>
+  </table>
+
+  <p id='result'>{{result}}</p>
+
+  <h2>TABLE 2</h2>
+  <table>
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Description</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td><form id="form1"><input type="hidden" name="id" value="1" /></form></td>
+        <td><input form="form1" type="text" name="name" value=1 /></td>
+        <td><input form="form1" type="text" name="description" value=2 /></td>
+        <td><input form="form1" type="submit" value="Save" /></td>
+    </tr>
+    <tr>
+        <td><form id="form2"><input type="hidden" name="id" value="1" /></form></td>
+        <td><input form="form2" type="text" name="name" value="Name" /></td>
+        <td><input form="form2" type="text" name="description" value="Description" /></td>
+        <td><input form="form2" type="submit" value="Save" /></td>
+    </tr>
+</table>
+
+<h2>TABLE 3</h2>
+<p>Table inside of a form</p>
+<form action="/" method="POST" id="my_form">
+
+  <input type="text" name="content" id="content">
+  <input type="submit" value="Add value">
+
+  <!-- Table inside a form -->
+<table>
+    <tr>
+        <td>
+            <input type="hidden" name="company1" id="company1" form="my_form" />
+
+            <!-- This is only for client side stuff--> 
+            <!--<div contenteditable>1</div>--> 
+        </td>
+        <td>
+          <input type="hidden" name="company2" id="company2" form="my_form" />
+          <div contenteditable>2</div>
+      </td>
+      <td>
+        <input id="myText" type="text" size="5" value="100"/>
+    </td>
+
+
+    </tr>
+</table>
+</form>
+
+<h2>TABLE 4</h2>
+<table>
+  <tr><td><div contenteditable>I'm editable</div></td><td><div contenteditable>I'm also editable</div></td></tr>
+  <tr><td>I'm not editable</td></tr>
+  </table>
+
+
+</body>
+</html>
