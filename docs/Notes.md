@@ -7,6 +7,7 @@ Read html table from localhost
     - tried: 
     - to do:
         - two shells (client that fetches data? + server)
+        - Use form?
 
 - Use html parser
     - https://realpython.com/html-css-python/#handle-html-with-python 
@@ -25,6 +26,11 @@ Read html table from localhost
 - Do not user anything with request.form
     - because we have html table, not form
 
+
+- Python 3 Flask & Pandas Script to Convert CSV to HTML Table in Browser Using HTML5
+    - https://www.youtube.com/watch?v=5vmV5Jc9nI0
+- coding web app to render CSV as responsive HTML table using Python Flask Bootstrap & Datatables
+    - https://www.youtube.com/watch?v=6q6liJMHx8s
 
 
 
