@@ -62,3 +62,10 @@ if __name__ == "__main__":
 
 
 # https://www.jitsejan.com/python-and-javascript-in-flask
+# https://www.valentinog.com/blog/html-table/
+
+# Communication
+# https://stackoverflow.com/questions/59975596/how-to-connect-javascript-to-python-script-with-flask
+# https://towardsdatascience.com/talking-to-python-from-javascript-flask-and-the-fetch-api-e0ef3573c451
+
+# https://www.youtube.com/watch?v=p5eCYKiZN-4
