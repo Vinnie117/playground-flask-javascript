@@ -16,16 +16,6 @@ class Todo(db.Model):
     def __repr__(self):
         return '<Task %r>' % self.id
 
-@app.route('/start', methods = ['POST', 'GET']) # methods that this route can accept
-def home():
-    a = 3
-    b = 4
-    example_embed='This string is from python and the result is: {}'.format(a+b)
-
-    example_result = 'Python reads the table: '
-
-    return render_template('index_old.html', embed=example_embed, result = example_result) 
-
 
 
 @app.route('/', methods=['POST', 'GET'])
@@ -45,19 +35,30 @@ def index():
         tasks = Todo.query.order_by(Todo.date_created).all()
         return render_template('index.html', tasks=tasks)
 
+@app.route('/delete/<int:id>')
+def delete(id):
+    task_to_delete = Todo.query.get_or_404(id)
 
-# @app.route('/', methods = ['POST', 'GET']) # methods that this route can accept
-# def home():
-#     a = 3
-#     b = 4
-#     example_embed='This string is from python and the result is: {}'.format(a+b)
+    try:
+        db.session.delete(task_to_delete)
+        db.session.commit()
+        return redirect('/')
+    except:
+        return 'There was a problem deleting that task'
 
-#     if request.method == 'POST':
-#         c = request.form['content']
-#         example_result = 'Python reads the table: {}'.format(c)
+@app.route('/old', methods = ['POST', 'GET']) # methods that this route can accept
+def home():
+    a = 3
+    b = 4
+    example_embed='This string is from python and the result is: {}'.format(a+b)
 
-#     return render_template('index.html', embed=example_embed, result = example_result) 
+    example_result = 'Python reads the table: '
+
+    return render_template('index_old.html', embed=example_embed, result = example_result) 
 
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+# To do: try to add table/more fields (forms) to html
