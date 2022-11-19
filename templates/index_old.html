@@ -145,11 +145,113 @@
 </form>
 
 <h2>TABLE 4</h2>
-<table>
-  <tr><td><div contenteditable>I'm editable</div></td><td><div contenteditable>I'm also editable</div></td></tr>
-  <tr><td>I'm not editable</td></tr>
-  </table>
+<style>
+  DIV.table 
+  {
+      display:table;
+  }
+  FORM.tr, DIV.tr
+  {
+      display:table-row;
+  }
+  SPAN.td
+  {
+      display:table-cell;
+  }
+  </style>
 
+  <div class="table">
+    <thead>
+      <tr>
+        <th class="tg-0pky"><span style="font-weight:bold">X</span></th>
+        <th class="tg-0pky"><span style="font-weight:bold">Y</span></th>
+        <th class="tg-fymr">Z</th>
+      </tr>
+    </thead>
+      <form class="tr" method="post" action="blah.html">
+          <span class="td"><input type="text" value=1></span>
+          <span class="td"><input type="text" value=8></span>
+          <span class="td"><input type="text" value=0></span>
+      </form>
+      <form class="tr" method="post" action="blah.html">
+        <span class="td"><input type="text" value=9></span>
+        <span class="td"><input type="text" value=7></span>
+        <span class="td"><input type="text" value=2></span>
+      </form>
+      <form class="tr" method="post" action="blah.html">
+        <span class="td"><input type="text" value=5></span>
+        <span class="td"><input type="text" value=4></span>
+        <span class="td"><input type="text" value=8></span>
+      </form>
+      <form class="tr" method="post" action="blah.html">
+        <span class="td"><input type="text" value=6></span>
+        <span class="td"><input type="text" value=7></span>
+        <span class="td"><input type="text" value=1></span>
+      </form>
+      <form class="tr" method="post" action="blah.html">
+        <span class="td"><input type="text" value=3></span>
+        <span class="td"><input type="text" value=5></span>
+        <span class="td"><input type="text" value=6></span>
+      </form>
+      <form class="tr" method="post" action="blah.html">
+        <span class="td"><input type="text" value=1></span>
+        <span class="td"><input type="text" value=2></span>
+        <span class="td"><input type="text" value=8></span>
+      </form>
+  </div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="tg-0pky"><span style="font-weight:bold">X</span></th>
+        <th class="tg-0pky"><span style="font-weight:bold">Y</span></th>
+        <th class="tg-fymr">Z</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- Form inside a table cell-->
+        <td class="tg-0pky"><input form="form1" type="hidden" id="name" name="name" value=1 />1</td>
+        <td class="tg-0pky"><div contenteditable>3</div></td>
+        <td class="tg-0pky"><div contenteditable>4</div></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky"><div contenteditable>2</div</td>
+        <td class="tg-0pky"><div contenteditable>0</div></td>
+        <td class="tg-0pky"><div contenteditable>4</div></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky"><div contenteditable>5</div></td>
+        <td class="tg-0pky"><div contenteditable>5</div></td>
+        <td class="tg-0pky"><div contenteditable>6</div></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky"><div contenteditable>4</div></td>
+        <td class="tg-0pky"><div contenteditable>9</div></td>
+        <td class="tg-0pky"><div contenteditable>2</div></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky"><div contenteditable>4</div></td>
+        <td class="tg-0pky"><div contenteditable>7</div></td>
+        <td class="tg-0pky"><div contenteditable>4</div></td>
+      </tr>
+    </tbody>
+    </table>
+  
+
+<!-- 
+  <div class="table">
+    <form class="tr" method="post" action="blah.html">
+        <span class="td"><input type="text"/></span>
+        <span class="td"><input type="text"/></span>
+    </form>
+    <div class="tr">
+        <span class="td">(cell data)</span>
+        <span class="td">(cell data)</span>
+    </div>
+    ...
+</div>
+-->
 
 </body>
 </html>

@@ -61,4 +61,4 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 
-# To do: try to add table/more fields (forms) to html
+# https://www.jitsejan.com/python-and-javascript-in-flask
