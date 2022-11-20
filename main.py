@@ -14,6 +14,8 @@ class Todo(db.Model):
     date_created = db.Column(db.DateTime, default=datetime.utcnow)
 
     def __repr__(self):
+
+        # return Task with id, everytime a new element is added
         return '<Task %r>' % self.id
 
 
