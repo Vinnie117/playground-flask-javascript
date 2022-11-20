@@ -4,6 +4,8 @@
   <title>JS Spreadsheet test</title>
   <script src="static/js/spreadsheet_1_clipboard.js"></script>
   <script src="static/js/spreadsheet_1.js"></script>
+  <!-- <script src="static/js/react_spreadsheet.js"></script>
+  <script src="static/js/react_index.js"></script> -->
 </head>
 <link rel="stylesheet" href="static/css/spreadsheet_1.css">
 <style>
@@ -19,17 +21,29 @@
     <div id="data-table">
         <input type="text" id="data-table-input">
     </div>
+
     <h2>Features</h2>
     <ul>
         <li>Every cell can be directly modified.</li>
         <li>Support copy and paste from SpreadSheet applications.</li>
         <li>On paste enlarge the table automatically to accomodate the data.</li>
     </ul>
+
+<!-- Load React? -->
+<!-- <script src="static/js/react_index.js"></script> 
+<script src="static/js/react_spreadsheet.js"></script>
+
+<div id="root"></div> -->
+
 </body>
+
 <script>
     var div = document.getElementById("data-table");
     var inputElement = document.getElementById("data-table-input");
     var table = spreadsheet.createTable(12, 4, inputElement);
     div.appendChild(table.element);
 </script>
+
+
+
 </html>
