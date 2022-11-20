@@ -59,6 +59,11 @@ def home():
     return render_template('index_old.html', embed=example_embed, result = example_result) 
 
 
+@app.route('/spreadsheet_1', methods = ['POST', 'GET']) # methods that this route can accept
+def spreadsheet_1():
+    return render_template('spreadsheet_1.html') 
+
+
 if __name__ == "__main__":
     app.run(debug=True)
 
