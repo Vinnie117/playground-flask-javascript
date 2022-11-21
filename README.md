@@ -7,7 +7,7 @@ Notes
 - Enable different parameters that can be switched on/off: standardization, intercept, clean NAs, clean outliers
 - Enable different forms of data inputs: raw list, csv (!) etc.
 
-![grafik](https://user-images.githubusercontent.com/52510339/202917605-672d2816-c14a-4ac4-a568-91c47bd33c43.png)
+![grafik](https://user-images.githubusercontent.com/52510339/202984741-25e6b25d-067c-49a4-b83c-5b2b22380d74.png)
 
 
 
