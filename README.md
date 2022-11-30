@@ -1,5 +1,5 @@
 # ml-api
-playground to explore web apps with python flask backend and js frontend
+A playground to explore web apps with python flask backend and js frontend
 
 Notes for future web app project:
 - Provide linear regression method first
